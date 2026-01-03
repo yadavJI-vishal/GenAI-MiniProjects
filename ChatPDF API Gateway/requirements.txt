@@ -1,0 +1,41 @@
+# Core FastAPI dependencies
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+python-multipart==0.0.12
+pydantic==2.10.3
+
+# Ngrok for public URL tunneling
+pyngrok==7.2.1
+
+# Async support for Colab
+nest-asyncio==1.6.0
+
+# PDF processing
+pypdf2==3.0.1
+
+# LlamaIndex core and extensions
+llama-index==0.12.5
+llama-index-core==0.12.5
+llama-index-llms-huggingface==0.4.0
+llama-index-embeddings-huggingface==0.4.1
+
+# Transformers and ML dependencies
+transformers==4.47.1
+accelerate==1.2.1
+bitsandbytes==0.45.0
+
+# Deep Learning framework
+torch==2.5.1
+torchvision==0.20.1
+torchaudio==2.5.1
+
+# Sentence transformers for embeddings
+sentence-transformers==3.3.1
+
+# Scientific computing
+numpy==1.26.4
+scipy==1.14.1
+
+# Additional utilities
+typing-extensions==4.12.2
+requests==2.32.3
